@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300, 600, 400;
+
+}
+
+body {
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    background: #F2F2F2
+}
+
+.cor-1 {
+    color: #6d728b;
+    width: 62.33px;
+    height: 13.05px;
+    margin: 74.91px 465px 136.09px 165px;
+    font-family: 'Playball', cursive;
+
+
+}
+
+.cor-2 {
+    width: 444px;
+    height: 64px;
+    color: #ce9898;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 64px;
+    margin: 255px 179px 492px 165px;
+    letter-spacing: 17px;
+    font-family: "josefin Sans";
+
+}
+
+.cor-3 {
+    position: absolute;
+    top: calc(50% - 128px/2 + 32px);
+    margin: -19px 808px 364px 159px;
+    height: 128px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 71px;
+    color: #423a3a;
+}
+
+.paragrafo {
+    position: absolute;
+    top: 572px;
+    left: 166px;
+    width: 444px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ce9898;
+}
+
+input {
+    border: 1px solid #ce9898;
+    border-radius: 28px;
+    width: 445px;
+    height: 56px;
+    color: #ce9898;
+    opacity: 0.5;
+}
+
+button {
+    position: absolute;
+    right: -12px;
+    width: 100px;
+    height: 56px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 65%);
+    border: #ce9898;
+    border-radius: 28px;
+    box-shadow: 0px 6px 20px rgba(193, 110, 110, 0247);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.input-button {
+    position: absolute;
+    top: 710px;
+    left: 145px;
+}
+
+img {
+    position: absolute;
+    top: 11px;
+    height: 1015px;
+    left: 1152px;
+
+}
+
+@media (max-width: 800px) {
+
+    input {
+        width: 311px;
+        height: 48px;
+    }
+
+    button {
+        width: 64px;
+        height: 48px;
+    }
+
+    .input-button {
+
+        top: 1230px;
+        
+       
+
+    }
+
+    .paragrafo {
+        width: 311px;
+        height: 88px;
+        margin: 540px 32px 32px;
+        line-height: initial;
+        text-align: center;
+        left: 121px;
+        font-size: 16px;
+    }
+
+    .cor-1 {
+        
+        width: 100px;
+        height: 20px;
+        margin-left: 30px;
+        
+    }
+
+    .cor-2 {
+        position: absolute;
+        width: 311px;
+        height: 42px;
+        margin-top: 650px;
+        text-align: center;
+        font-size: 40px;
+       
+
+    }
+
+    .cor-3 {
+        position: absolute;
+        width: 311px;
+        height: 84px;
+        font-size: 40px;
+        margin-top: 530px;
+        text-align: center;
+
+
+    }
+
+   
+
+    img {
+        position: absolute;
+         width: 610px;
+         height: 559px;
+         left: 0px;
+         top: 239px;
+         
+
+    }
+    
+    body {
+        background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    }
+
+}
